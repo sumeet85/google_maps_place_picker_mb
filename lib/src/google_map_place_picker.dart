@@ -481,7 +481,7 @@ class GoogleMapPlacePicker extends StatelessWidget {
                 result.geometry!.location.lng) <=
             pickArea!.radius;
     MaterialStateColor buttonColor = MaterialStateColor.resolveWith(
-        (states) => canBePicked ? Colors.lightGreen : Colors.red);
+        (states) => canBePicked ? Colors.lightBlue : Colors.red);
     return Container(
       margin: EdgeInsets.all(10),
       child: Column(
